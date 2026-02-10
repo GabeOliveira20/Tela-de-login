@@ -1,7 +1,8 @@
-import customtkinter as ctk
+import customtkinter as ctk      
 
 # Configurar aparência
-ctk.set_appearance_mode("dark")
+ctk.set_appearance_mode("Light")  # Modos: "Light", "Dark", "System"
+ctk.set_default_color_theme("blue")  # Temas: "blue", "dark-blue", "green"
 
 # Função de validação
 def validar_login():
